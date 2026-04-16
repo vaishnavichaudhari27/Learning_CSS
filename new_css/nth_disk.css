@@ -1,0 +1,19 @@
+ul{
+    width: 200px;
+    padding: 10px;
+    list-style-type: none;
+    font-weight: 900;
+}
+li{
+    padding: 10px;
+    border: 1px solid rgb(27, 9, 15);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+li:nth-child(odd) {
+    background-color:lightcoral;
+}
+li:nth-child(even) {
+    background-color: lightblue;
+}
+
